@@ -29,7 +29,7 @@ const app = express();
     Assigns setting name to value.
 */
 app.set('view engine', 'ejs');
-app.set('Views', path.join(__dirname, '/Views'));
+app.set('views', path.join(__dirname, '/Views'));
 
 
 
